@@ -2,6 +2,7 @@
 version: "3"
 
 services:
+  # TODO - add a similar service for detector
   generator:
     build: ./generator
     environment:
