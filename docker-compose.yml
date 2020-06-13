@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: "3"
+
+services:
+  # TODO: generator and detector coming soon
+
+# Give this composition access to the Kafka network
+networks:
+  default:
+    external:
+      name: kafka-network
