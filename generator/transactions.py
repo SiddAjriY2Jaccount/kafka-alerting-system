@@ -17,6 +17,6 @@ def create_random_transaction() -> dict:
         'source': _random_account_id(),
         'target': _random_account_id(),
         'amount': _random_amount(),
-        # Keep it simple: it's all euros
+        # assign some currency -> dummy data stream
         'currency': 'EUR',
     }
